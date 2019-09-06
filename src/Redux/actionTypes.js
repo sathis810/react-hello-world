@@ -1,0 +1,4 @@
+export const SHOW_MENU = 'SHOW_MENU';
+export const HIDE_MENU = 'HIDE_MENU';
+export const SHOW_APP_EXPLORER = 'SHOW_APP_EXPLORER';
+export const HIDE_APP_EXPLORER = 'HIDE_APP_EXPLORER';
