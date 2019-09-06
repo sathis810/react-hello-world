@@ -8,7 +8,9 @@ import { HIDE_MENU, SHOW_MENU } from './Redux/actionTypes';
 export class App extends React.Component {
   constructor(props) {
     super(props)
-  
+
+    console.log(props);
+
     this.HideMenu = this.HideMenu.bind(this);    
   }
   
@@ -33,7 +35,6 @@ export class App extends React.Component {
             <LeftMenu></LeftMenu>
           </div>     
       </React.Fragment> 
-
     )
   }
 }
